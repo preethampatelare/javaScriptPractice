@@ -22,4 +22,17 @@
 // console.log(input.indexOf("na"));
 // console.log(input.replace("Apna","Our"));
 let array = [1,5,6,8,3,6,9,0];
-console.log(array);
+array.push(75);
+array.unshift(75);
+let months =["january","july","march","august"];
+// months.shift();
+// months.shift();
+// months.unshift("june");
+// months.unshift("july");
+// console.log(months);
+// months.splice(0,1);
+// months.splice(1,0,"june");
+// console.log(months);
+let lan=["c","c++","java","javaScript","python","rust","ruby","perl","Html"];
+//let x = lan.length;
+console.log(lan.length-(lan.indexOf("javaScript")+1));
